@@ -7,7 +7,6 @@ Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis moll
 
 Setting up the documentation sources
 
-
 Sphinx comes with a script called :program:`sphinx-quickstart` that sets up a
 source directory and creates a default :file:`conf.py` with the most useful
 configuration values from a few questions it asks you. To use this, run:
