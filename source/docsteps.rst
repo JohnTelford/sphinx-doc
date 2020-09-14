@@ -13,7 +13,7 @@ Doc Steps
 
 - add testing.rst to index.rst toctree
 
-- make /doc`s directory 
+- make `/docs` directory 
     - this is the GitHub Pages interface
     - create an empty file `.nojekyll`
 
