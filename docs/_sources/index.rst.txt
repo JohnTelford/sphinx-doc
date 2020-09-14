@@ -11,6 +11,7 @@ Welcome to Testing's documentation!
    :caption: Contents:
 
    Testing
+   docsteps
 
 
 Indices and tables
