@@ -1,23 +1,29 @@
 Doc Steps
-------------
+=========
 
-- Take a look at `Sphinx    <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_. It is the home of sphinx-doc 
+ **source directory**
+      The directory which, including its subdirectories, contains all source
+      files for one Sphinx project.
 
-- `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html#details>`_ has the  details of the markup may be found on the reStructuredText page
+* Take a look at `Sphinx    <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_ the home of sphinx-doc 
 
-- cli `sphidlinx-quickstart`
+* Take a look at `Installing Sphinx <https://www.sphinx-doc.org/en/master/usage/installation.html>`_ 
 
-- make `/docs` directory 
-    - this is the GitHub Pages interface
-    - create an empty file `.nojekyll`
+*  `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html#details>`_ has the  details of the markup may be found on the reStructuredText page
 
-- add some text to testing.rst
+* Execute cli :file:`sphinx-quickstart` to create the source directory
 
-- add testing.rst to index.rst toctree
+* make the :file:`/docs` directory in the source directory 
+    * it is the GitHub Pages interface
+    * create an empty file :file:`.nojekyll`
 
-- test `make html` 
+* add some text to :file:`testing.rst`
 
-- add to the Makefile:
+* add :file:`testing.rst` to :file:`index.rst` toctree
+
+* test ``make html``
+
+* add to the :file:`/Makefile` :
 
     ::
 
@@ -26,4 +32,9 @@ Doc Steps
                 @make html
                 @cp -a ./build/html/* ./docs
 
-- test `make github`
+* test ``make github``
+
+Previewing Web Page
+--------------------------
+
+Open the `index.html` file in the source directory /Docs file 

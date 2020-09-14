@@ -34,22 +34,30 @@
             
   <div class="section" id="doc-steps">
 <h1>Doc Steps<a class="headerlink" href="#doc-steps" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><dl class="simple">
+<dt><strong>source directory</strong></dt><dd><p>The directory which, including its subdirectories, contains all source
+files for one Sphinx project.</p>
+</dd>
+</dl>
+</div></blockquote>
 <ul>
-<li><p>Take a look at <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks">Sphinx</a>. It is the home of sphinx-doc</p></li>
+<li><p>Take a look at <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks">Sphinx</a> the home of sphinx-doc</p></li>
+<li><p>Take a look at <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/installation.html">Installing Sphinx</a></p></li>
 <li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/user/rst/quickref.html#details">Quick reStructuredText</a> has the  details of the markup may be found on the reStructuredText page</p></li>
-<li><p>cli <cite>sphidlinx-quickstart</cite></p></li>
+<li><p>Execute cli <code class="file docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> to create the source directory</p></li>
 <li><dl class="simple">
-<dt>make <cite>/docs</cite> directory</dt><dd><ul class="simple">
-<li><p>this is the GitHub Pages interface</p></li>
-<li><p>create an empty file <cite>.nojekyll</cite></p></li>
+<dt>make the <code class="file docutils literal notranslate"><span class="pre">/docs</span></code> directory in the source directory</dt><dd><ul class="simple">
+<li><p>it is the GitHub Pages interface</p></li>
+<li><p>create an empty file <code class="file docutils literal notranslate"><span class="pre">.nojekyll</span></code></p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><p>add some text to testing.rst</p></li>
-<li><p>add testing.rst to index.rst toctree</p></li>
-<li><p>test <cite>make html</cite></p></li>
-<li><p>add to the Makefile:</p>
+<li><p>add some text to <code class="file docutils literal notranslate"><span class="pre">testing.rst</span></code></p></li>
+<li><p>add <code class="file docutils literal notranslate"><span class="pre">testing.rst</span></code> to <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> toctree</p></li>
+<li><p>test <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code></p></li>
+<li><p>add to the <code class="file docutils literal notranslate"><span class="pre">/Makefile</span></code> :</p>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">GitHub</span> <span class="n">Pages</span>
     <span class="n">github</span><span class="p">:</span>
@@ -59,8 +67,12 @@
 </div>
 </div></blockquote>
 </li>
-<li><p>test <cite>make github</cite></p></li>
+<li><p>test <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">github</span></code></p></li>
 </ul>
+<div class="section" id="previewing-web-page">
+<h2>Previewing Web Page<a class="headerlink" href="#previewing-web-page" title="Permalink to this headline">¶</a></h2>
+<p>Open the <cite>index.html</cite> file in the source directory /Docs file</p>
+</div>
 </div>
 
 
@@ -84,7 +96,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Testing.html">My Title</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Testing.html#getting-started">Getting Started</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Doc Steps</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Doc Steps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#previewing-web-page">Previewing Web Page</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">
