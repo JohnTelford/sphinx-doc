@@ -20,7 +20,7 @@ Doc Steps
     * it is the GitHub Pages interface
     * create an empty file ``<source directory>``:file:`/docs`:file:`.nojekyll`
 
-* add some text to :file:`testing.rst`
+* add some text to ``<source directory>``:file:`/testing.rst`
 
 * add :file:`testing.rst` to :file:`index.rst` toctree
 
