@@ -23,3 +23,9 @@ help:
 github:
 	@make html
 	@cp -a ./source/_build/html/* ./docs
+
+# Web deploy
+deploy:
+	@make html
+	@cp -a ./build/html/* /Volumes/Dev/JekyllWebAps/jekyll-asciidoc-quickstart-johntelford/rst
+

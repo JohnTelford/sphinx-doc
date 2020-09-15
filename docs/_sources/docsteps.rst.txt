@@ -8,34 +8,32 @@ Doc Steps
     The directory which, including its subdirectories, contains all source
     files for one Sphinx project.
 
-* Execute  command :``<source directory>``:file:`sphinx-quickstart`  to create the source directory
+* Execute  the command ``<source directory>``:file:`sphinx-quickstart`  to create the source directory
 
-* Take a look at `Sphinx    <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_ the home of sphinx-doc 
+* Take a look at `Sphinx    <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_ home page
 
 * Take a look at `Installing Sphinx <https://www.sphinx-doc.org/en/master/usage/installation.html>`_ 
 
-*  `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html#details>`_ has the  details of the markup may be found on the reStructuredText page
+*  `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html#details>`_  has the  details of  ``reStructuredText`` markup 
 
-* make the  ``<source directory>``:file:`/docs` directory in the source directory 
-    * it is the GitHub Pages interface
-    * create an empty file ``<source directory>``:file:`/docs`:file:`.nojekyll`
+* Make the  ``<source directory>``:file:`/docs` directory in the source directory 
+    * It is the GitHub Pages interface
+    * Create an empty file ``<source directory>``:file:`/docs`:file:`.nojekyll`
 
-* add some text to ``<source directory>/sources:file:`testing.rst```
+* Add some text to ``<source directory>``:file:`/testing.rst`
 
-* add :file:`testing.rst` to :file:`index.rst` toctree
+* Add :file:`testing.rst` to :file:`index.rst` toctree
 
-* test ``<source directory>````make html``
+* Test ``<source directory>````make html``
 
-* add this to the end of the ``<source directory>``:file:`/Makefile` :
+* Add this to the end of the ``<source directory>``:file:`/Makefile`
 
-    ::
+    # GitHub Pages
+        github:
+            @make html
+            @cp -a ./build/html/* ./docs
 
-        GitHub Pages
-            github:
-                @make html
-                @cp -a ./build/html/* ./docs
-
-* test ``<source directory>/make github`` from the source directory
+* Test ``<source directory>/make github`` from the source directory
 
 Previewing Web Page
 --------------------------
