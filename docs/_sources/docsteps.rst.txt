@@ -1,9 +1,14 @@
 Doc Steps
 =========
 
- **source directory**
-      The directory which, including its subdirectories, contains all source
-      files for one Sphinx project.
+
+ Updated: |today|
+
+**source directory**
+    The directory which, including its subdirectories, contains all source
+    files for one Sphinx project.
+
+* Execute  command :``<source directory>``:file:`sphinx-quickstart`  to create the source directory
 
 * Take a look at `Sphinx    <https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks>`_ the home of sphinx-doc 
 
@@ -11,19 +16,17 @@ Doc Steps
 
 *  `Quick reStructuredText <https://docutils.sourceforge.io/docs/user/rst/quickref.html#details>`_ has the  details of the markup may be found on the reStructuredText page
 
-* Execute cli :file:`sphinx-quickstart` to create the source directory
-
-* make :file:`/docs` source directory 
-    * this is the GitHub Pages interface
-    * create an empty file :file:`.nojekyll`
+* make the  ``<source directory>``:file:`/docs` directory in the source directory 
+    * it is the GitHub Pages interface
+    * create an empty file ``<source directory>``:file:`/docs`:file:`.nojekyll`
 
 * add some text to :file:`testing.rst`
 
 * add :file:`testing.rst` to :file:`index.rst` toctree
 
-* test ``make html``
+* test ``<source directory>````make html``
 
-* add to the :file:`/Makefile` :
+* add this to the end of the ``<source directory>``:file:`/Makefile` :
 
     ::
 
@@ -32,9 +35,16 @@ Doc Steps
                 @make html
                 @cp -a ./build/html/* ./docs
 
-* test ``make github``
+* test ``<source directory>/make github`` from the source directory
 
 Previewing Web Page
 --------------------------
 
-Open the `index.html` file in the source directory /Docs file 
+Open the :file:`index.html` file in the source directory /Docs directory with a browser
+
+====================  ==========  ==========
+Header row, column 1  Header 2    Header 3
+====================  ==========  ==========
+body row 1, column 1  column 2    column 3
+body row 2            Cells may span columns
+====================  ======================

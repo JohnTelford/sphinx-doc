@@ -10,9 +10,8 @@ Welcome to Testing's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Testing
    docsteps
-
+   rst Feature Test
 
 Indices and tables
 ==================

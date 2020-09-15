@@ -15,7 +15,8 @@
     <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="My Title" href="Testing.html" />
+    <link rel="next" title="rst Feature Test" href="rst%20Feature%20Test.html" />
+    <link rel="prev" title="Welcome to Testing’s documentation!" href="index.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,29 +36,30 @@
   <div class="section" id="doc-steps">
 <h1>Doc Steps<a class="headerlink" href="#doc-steps" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div><dl class="simple">
+<div><p>Updated: Sep 14, 2020</p>
+</div></blockquote>
+<dl class="simple">
 <dt><strong>source directory</strong></dt><dd><p>The directory which, including its subdirectories, contains all source
 files for one Sphinx project.</p>
 </dd>
 </dl>
-</div></blockquote>
 <ul>
+<li><p>Execute  command :<code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;</span></code><code class="file docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code>  to create the source directory</p></li>
 <li><p>Take a look at <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#hyperlinks">Sphinx</a> the home of sphinx-doc</p></li>
 <li><p>Take a look at <a class="reference external" href="https://www.sphinx-doc.org/en/master/usage/installation.html">Installing Sphinx</a></p></li>
 <li><p><a class="reference external" href="https://docutils.sourceforge.io/docs/user/rst/quickref.html#details">Quick reStructuredText</a> has the  details of the markup may be found on the reStructuredText page</p></li>
-<li><p>Execute cli <code class="file docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> to create the source directory</p></li>
 <li><dl class="simple">
-<dt>make the <code class="file docutils literal notranslate"><span class="pre">/docs</span></code> directory in the source directory</dt><dd><ul class="simple">
+<dt>make the  <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;</span></code><code class="file docutils literal notranslate"><span class="pre">/docs</span></code> directory in the source directory</dt><dd><ul class="simple">
 <li><p>it is the GitHub Pages interface</p></li>
-<li><p>create an empty file <code class="file docutils literal notranslate"><span class="pre">.nojekyll</span></code></p></li>
+<li><p>create an empty file <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;</span></code><code class="file docutils literal notranslate"><span class="pre">/docs</span></code><code class="file docutils literal notranslate"><span class="pre">.nojekyll</span></code></p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><p>add some text to <code class="file docutils literal notranslate"><span class="pre">testing.rst</span></code></p></li>
 <li><p>add <code class="file docutils literal notranslate"><span class="pre">testing.rst</span></code> to <code class="file docutils literal notranslate"><span class="pre">index.rst</span></code> toctree</p></li>
-<li><p>test <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code></p></li>
-<li><p>add to the <code class="file docutils literal notranslate"><span class="pre">/Makefile</span></code> :</p>
+<li><p>test <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;````make</span> <span class="pre">html</span></code></p></li>
+<li><p>add this to the end of the <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;</span></code><code class="file docutils literal notranslate"><span class="pre">/Makefile</span></code> :</p>
 <blockquote>
 <div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">GitHub</span> <span class="n">Pages</span>
     <span class="n">github</span><span class="p">:</span>
@@ -67,11 +69,33 @@ files for one Sphinx project.</p>
 </div>
 </div></blockquote>
 </li>
-<li><p>test <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">github</span></code></p></li>
+<li><p>test <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">directory&gt;/make</span> <span class="pre">github</span></code> from the source directory</p></li>
 </ul>
 <div class="section" id="previewing-web-page">
 <h2>Previewing Web Page<a class="headerlink" href="#previewing-web-page" title="Permalink to this headline">¶</a></h2>
-<p>Open the <cite>index.html</cite> file in the source directory /Docs file</p>
+<p>Open the <code class="file docutils literal notranslate"><span class="pre">index.html</span></code> file in the source directory /Docs directory with a browser</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Header row, column 1</p></th>
+<th class="head"><p>Header 2</p></th>
+<th class="head"><p>Header 3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>body row 1, column 1</p></td>
+<td><p>column 2</p></td>
+<td><p>column 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>body row 2</p></td>
+<td colspan="2"><p>Cells may span columns</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -94,19 +118,19 @@ files for one Sphinx project.</p>
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Testing.html">My Title</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Testing.html#getting-started">Getting Started</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Doc Steps</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#previewing-web-page">Previewing Web Page</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="rst%20Feature%20Test.html">rst Feature Test</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="Testing.html" title="previous chapter">My Title</a></li>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Testing’s documentation!</a></li>
+      <li>Next: <a href="rst%20Feature%20Test.html" title="next chapter">rst Feature Test</a></li>
   </ul></li>
 </ul>
 </div>
