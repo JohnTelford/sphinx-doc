@@ -24,7 +24,7 @@ Doc Steps
 
 * Add :file:`testing.rst` to :file:`index.rst` toctree
 
-* Test ``<source directory>````make html``
+* Test command ``<source directory>``:file:`make html`
 
 * Add this to the end of the ``<source directory>``:file:`/Makefile`
 
@@ -33,7 +33,7 @@ Doc Steps
             @make html
             @cp -a ./build/html/* ./docs
 
-* Test ``<source directory>/make github`` from the source directory
+* Test ``<source directory>``:file:`/make github`
 
 Previewing Web Page
 --------------------------
